@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Blog de libros</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <!--build:css css/styles.min.css -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--endbuild-->
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <LINK REL=StyleSheet HREF="fonts" TYPE="text/css" MEDIA=screen>
+
+</head>
+<body>
+	<header class="header" > <!--INICIO DEL ENCABEZADO-->
+		<div class="row">
+		    <div class="col s12 m4 l2">
+		    	<img id = "portada-header" src="imagenes/portada.jpg" alt="80px" width="250px">
+		    </div>
+		    <div class="col s12 m4 l8"> <!--INICIO DE PORTADA-->
+		    	<center>
+		    		<h3 > "Ya casi es hora de que empiece a dedicarte mi insomnio" </h3>
+					<p>-Mario Benedetti</p>
+					<a href="#modal1" class="modal-trigger waves-effect waves-light btn btnPpal">Iniciar Sesion</a>
+					<a href="#modal1" class="modal-trigger waves-effect waves-light btn btnPpal1">Registrate!!</a>
+		    	</center>
+		    </div> <!--FIN DE PORTADA-->	
+		    <div class="col s12 m4 l2"><p>s12 m4</p></div>
+  		</div>
+	</header><!-- FIN DEL ENCABEZADO-->
+		<nav class="top_menu"><!--INICIO DE MENU DE NAVEGACION --> 
+			<ul id= "menu_navegacion"> <!-- INICIO  DE LISTA DE NAVEGACION --> 
+				<li> <a href="index.html">Home</a></li>
+				<li> <a href="index.html#footer">Contactenos</a></li>
+			</ul> <! -- FIN DE LISTA DE NAVEGACION -->
+		</nav> <!-- FIN DE MENU DE NAVEGACION -->
+		<br> <br> 
+
+
+
+
+
+	<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+	<footer class="page-footer" id="footer">
+        <div class="row">
+		    <div class="col s12 m4 l3" id="informacion-footer">
+		    	<p> Pagina diseñada por Dayana G.</p>
+		    	<p> Ucc Ing. Sistema 2017</p>
+		    </div>
+		    <div class="col s12 m4 l5"  id="footer-contactenos">
+		    	<div class="input-field">   
+                    <input id="nombreContacto" type="text" required />
+                    <label for="nombreContacto" id="label-nombre">Nombres:</label>                    
+                </div>
+                <div class="input-field">  
+                    <input id="emailContacto" type="email" required />   
+                    <label for="emailContacto" id="label-email">E-mail</label>                            
+                </div>              
+                <div class="tipos-comentarios">
+                    <input id="comentarioTipo" type="checkbox" name="Comentarios" value="comentarios" checked />
+                    	<label for="comentarioTipo" id="label-comentarios">     Comentarios  </label>
+                    <input id="reclamoTipo" type="checkbox" name="reclamos" value="Reclamos"/> 
+                        <label for="reclamoTipo" id="label-reclamos">  Reclamos  </label>
+                    <input id="mejoraTipo" type="checkbox" name="Mejora" value="mejora"/>          
+                        <label for="mejoraTipo" id="label-mejora">  Mejora </label>
+                    <input id="otroTipo" type="checkbox" name="Otro" value="otro" />
+                        <label for="otroTipo" id="label-otro"> Otro</label>
+                </div>
+		    </div>
+		    <div class="col s12 m4 l4">
+                <textarea id="comentariosContacto" placeholder="Escribe tu comentario" cols="30" rows="8" required></textarea>
+                <input type="submit" class="waves-effect waves-light btn btnPpal" value="Enviar" />
+            </div>  
+		    
+  		</div>
+        <div class="footer-copyright">
+	        <div class="container">
+		        © 2014 Copyright Text
+            </div>
+        </div>
+    </footer>	
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+</html>
