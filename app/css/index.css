@@ -15,8 +15,12 @@ body
     min-height: 100vh;
     flex-direction: column;
 }
-
-
+/*
+#btn_postear{
+  pointer-events: none;
+  cursor: default;
+}
+*/
 
 /*EL DISEÑO DEL ENCABEZADO */
 .header
